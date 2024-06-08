@@ -30,13 +30,13 @@ public class Employee implements Serializable {
 
     private String idNumber;
 
-    private Integer status;
+    private Integer status;     //状态，1正常，0，禁用
 
     //@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    private LocalDateTime createTime;
+    private LocalDateTime createTime;       //创建时间
 
     //@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    private LocalDateTime updateTime;
+    private LocalDateTime updateTime;       //修改时间
 
     private Long createUser;
 
