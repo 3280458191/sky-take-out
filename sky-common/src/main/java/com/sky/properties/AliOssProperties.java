@@ -9,6 +9,9 @@ import org.springframework.stereotype.Component;
 @Data
 public class AliOssProperties {
 
+    /**
+     * 阿里云配置项
+     */
     private String endpoint;
     private String accessKeyId;
     private String accessKeySecret;

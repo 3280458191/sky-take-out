@@ -6,3 +6,14 @@ sky:
     database: sky_take_out
     username: root
     password: 1234
+  alioss:
+    access-key-id: LTAI5tRn95B8nyZCvv9c7Ked
+    access-key-secret: QrIqKmClM8dYdTMv5crbTSbDjov6yk
+    endpoint: oss-cn-beijing.aliyuncs.com
+    bucket-name: web-s1
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB

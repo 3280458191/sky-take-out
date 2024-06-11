@@ -14,6 +14,9 @@ import java.io.ByteArrayInputStream;
 @Slf4j
 public class AliOssUtil {
 
+    /**
+     * 阿里云文件上传
+     */
     private String endpoint;
     private String accessKeyId;
     private String accessKeySecret;
